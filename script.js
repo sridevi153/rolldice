@@ -26,6 +26,8 @@ const initial = function () {
   player1.classList.remove('player--active');
   player0.classList.remove('player--winner');
   player1.classList.remove('player--winner');
+  document.querySelector('.player--0 .name').textContent = 'Player 1';
+  document.querySelector('.player--1 .name').textContent = 'Player 2';
 };
 
 initial();
